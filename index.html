@@ -5,6 +5,18 @@
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+
+    
 </head>
 <body>
 
@@ -25,8 +37,755 @@
     <!-- Конец -->
 
     <div class="main">
-        В данном блоке размещается верстка
-    </div>
+        <header class="header container">
+            <nav class="nav-menu">
+                <a href="#collections" class="nav-menu__link">Collections</a>
+                <a href="#products" class="nav-menu__link">Products</a>
+                <a href="#inspiration" class="nav-menu__link">Inspiration</a>
+                <a href="#about" class="nav-menu__link">About us</a>
+                <a href="#find" class="nav-menu__link">Find a dealer</a>
+            </nav>
+        </header>
+        <main class="main-content">
+            <section class="intro">
+                <h1 class="intro__title"> Lasting memories</h1>
+            </section>
+            <section id="products" class="info container-fluid">
+                <div class="info__content">
+                    <h2 class="info__title">Making tables heroes</h2>
+                    <p class="info__text">Chairs, cabinets, but especially tables by Joli are durable products, designed to last and to be used intensively.</p>
+                    <div class="info__buttons">
+                        <button class="btn info__button">About us</button>
+                        <button class="btn btn--transparent info__button">Collections</button>
+                    </div>
+                </div>
+                <div class="info__item">
+                    <img class="info__image info__image--top-right" src="./img/info-1.png" alt="chairs and table">
+                    <img class="info__image info__image--bottom-right" src="./img/info-2.png" alt="chair and table">
+                    <img class="info__image info__image--bottom-left" src="./img/info-3.png" alt="sofa and table">
+                </div>
+            </section>
+            <section id="collections" class="collections">
+                <div class="swiper container-fluid">
+                    <!-- Additional required wrapper -->
+                    <div class="collections__content">
+                        <h2 class="collections__title">Our <br/>collections</h2>
+                        <p class="collections__text">Central Olivo Morisot Curve Wire Marguerite Fizz Rafael Chagall</p>
+    
+                    </div>
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide">
+                        <div class="collections__slide">
+                                <div class="collections__item collections__item--bottom-left">
+                                    <swiper-container next="collections__button--next-second" class="collections__swiper-second" space-between="60" slides-per-view="1">
+                                            <swiper-slide class="swiper-slide">
+                                                <div class="collections__image-content">
+                                                    <img src="./img/collections-1.png" alt="slide">
+                                                    <h3 class="collections__item-title">
+                                                        Central
+                                                    </h3>
+                                                    <p class="collections__award">award winner</p>
+                                                </div>
+            
+                                            </swiper-slide>
+    
+                                            <swiper-slide class="swiper-slide">
+                                                <div class="collections__image-content">
+                                                    <img src="./img/collections-2.png" alt="slide">
+                                                    <h3 class="collections__item-title">
+                                                        Olivo
+                                                    </h3>
+                                                    <p class="collections__award">award winner</p>
+                                                </div>
+                                            </swiper-slide>
+                                    </swiper-container>
+                                    <div class="collections__slider-content">
+                                        <p class="collections__desc">ready to become the centerpiece of your home</p>
+                                        <button class="collections__button collections__button--prev-second"></button>            
+                                        <button class="collections__button collections__button--next-second"></button>            
+                                    </div>
+                            </div>
+                            <div class="collections__item collections__item--top-right">
+                                <swiper-container class="collections__swiper-second" space-between="60" slides-per-view="1">
+                                    <swiper-slide class="swiper-slide">
+                                        <div class="collections__image-content">
+                                            <img src="./img/collections-2.png" alt="slide">
+                                            <h3 class="collections__item-title">
+                                                Olivo
+                                            </h3>
+                                        </div>
+    
+                                    </swiper-slide>
 
+                                    <swiper-slide class="swiper-slide">
+                                        <div class="collections__image-content">
+                                            <img src="./img/collections-1.png" alt="slide">
+                                            <h3 class="collections__item-title">
+                                                Central
+                                            </h3>
+                                        </div>
+                                    </swiper-slide>
+                            </swiper-container>
+                            <div class="collections__slider-content">
+                                <p class="collections__desc">Believe us, this will be a real eye-catcher</p>
+                                <button class="collections__button collections__button--prev-second"></button>            
+                                <button class="collections__button collections__button--next-second"></button>            
+                            </div>
+                    </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="collections__slide">
+                                <div class="collections__item collections__item--bottom-left">
+                                    <swiper-container next="collections__button--next-second" class="collections__swiper-second" space-between="60" slides-per-view="1">
+                                            <swiper-slide class="swiper-slide">
+                                                <div class="collections__image-content">
+                                                    <img src="./img/collections-1.png" alt="slide">
+                                                    <h3 class="collections__item-title">
+                                                        Central
+                                                    </h3>
+                                                    <p class="collections__award">award winner</p>
+                                                </div>
+            
+                                            </swiper-slide>
+    
+                                            <swiper-slide class="swiper-slide">
+                                                <div class="collections__image-content">
+                                                    <img src="./img/collections-2.png" alt="slide">
+                                                    <h3 class="collections__item-title">
+                                                        Olivo
+                                                    </h3>
+                                                    <p class="collections__award">award winner</p>
+                                                </div>
+                                            </swiper-slide>
+                                    </swiper-container>
+                                    <div class="collections__slider-content">
+                                        <p class="collections__desc">ready to become the centerpiece of your home</p>
+                                        <button class="collections__button collections__button--prev-second"></button>            
+                                        <button class="collections__button collections__button--next-second"></button>            
+                                    </div>
+                            </div>
+                            <div class="collections__item collections__item--top-right">
+                                <swiper-container class="collections__swiper-second" space-between="60" slides-per-view="1">
+                                    <swiper-slide class="swiper-slide">
+                                        <div class="collections__image-content">
+                                            <img src="./img/collections-2.png" alt="slide">
+                                            <h3 class="collections__item-title">
+                                                Olivo
+                                            </h3>
+                                        </div>
+    
+                                    </swiper-slide>
+
+                                    <swiper-slide class="swiper-slide">
+                                        <div class="collections__image-content">
+                                            <img src="./img/collections-1.png" alt="slide">
+                                            <h3 class="collections__item-title">
+                                                Central
+                                            </h3>
+                                        </div>
+                                    </swiper-slide>
+                            </swiper-container>
+                            <div class="collections__slider-content">
+                                <p class="collections__desc">Believe us, this will be a real eye-catcher</p>
+                                <button class="collections__button collections__button--prev-second"></button>            
+                                <button class="collections__button collections__button--next-second"></button>            
+                            </div>
+                    </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="collections__slide">
+                                <div class="collections__item collections__item--bottom-left">
+                                    <swiper-container next="collections__button--next-second" class="collections__swiper-second" space-between="60" slides-per-view="1">
+                                            <swiper-slide class="swiper-slide">
+                                                <div class="collections__image-content">
+                                                    <img src="./img/collections-1.png" alt="slide">
+                                                    <h3 class="collections__item-title">
+                                                        Central
+                                                    </h3>
+                                                    <p class="collections__award">award winner</p>
+                                                </div>
+            
+                                            </swiper-slide>
+    
+                                            <swiper-slide class="swiper-slide">
+                                                <div class="collections__image-content">
+                                                    <img src="./img/collections-2.png" alt="slide">
+                                                    <h3 class="collections__item-title">
+                                                        Olivo
+                                                    </h3>
+                                                    <p class="collections__award">award winner</p>
+                                                </div>
+                                            </swiper-slide>
+                                    </swiper-container>
+                                    <div class="collections__slider-content">
+                                        <p class="collections__desc">ready to become the centerpiece of your home</p>
+                                        <button class="collections__button collections__button--prev-second"></button>            
+                                        <button class="collections__button collections__button--next-second"></button>            
+                                    </div>
+                            </div>
+                            <div class="collections__item collections__item--top-right">
+                                <swiper-container class="collections__swiper-second" space-between="60" slides-per-view="1">
+                                    <swiper-slide class="swiper-slide">
+                                        <div class="collections__image-content">
+                                            <img src="./img/collections-2.png" alt="slide">
+                                            <h3 class="collections__item-title">
+                                                Olivo
+                                            </h3>
+                                        </div>
+    
+                                    </swiper-slide>
+
+                                    <swiper-slide class="swiper-slide">
+                                        <div class="collections__image-content">
+                                            <img src="./img/collections-1.png" alt="slide">
+                                            <h3 class="collections__item-title">
+                                                Central
+                                            </h3>
+                                        </div>
+                                    </swiper-slide>
+                            </swiper-container>
+                            <div class="collections__slider-content">
+                                <p class="collections__desc">Believe us, this will be a real eye-catcher</p>
+                                <button class="collections__button collections__button--prev-second"></button>            
+                                <button class="collections__button collections__button--next-second"></button>            
+                            </div>
+                    </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="collections__slide">
+                                <div class="collections__item collections__item--bottom-left">
+                                    <swiper-container next="collections__button--next-second" class="collections__swiper-second" space-between="60" slides-per-view="1">
+                                            <swiper-slide class="swiper-slide">
+                                                <div class="collections__image-content">
+                                                    <img src="./img/collections-1.png" alt="slide">
+                                                    <h3 class="collections__item-title">
+                                                        Central
+                                                    </h3>
+                                                    <p class="collections__award">award winner</p>
+                                                </div>
+            
+                                            </swiper-slide>
+    
+                                            <swiper-slide class="swiper-slide">
+                                                <div class="collections__image-content">
+                                                    <img src="./img/collections-2.png" alt="slide">
+                                                    <h3 class="collections__item-title">
+                                                        Olivo
+                                                    </h3>
+                                                    <p class="collections__award">award winner</p>
+                                                </div>
+                                            </swiper-slide>
+                                    </swiper-container>
+                                    <div class="collections__slider-content">
+                                        <p class="collections__desc">ready to become the centerpiece of your home</p>
+                                        <button class="collections__button collections__button--prev-second"></button>            
+                                        <button class="collections__button collections__button--next-second"></button>            
+                                    </div>
+                            </div>
+                            <div class="collections__item collections__item--top-right">
+                                <swiper-container class="collections__swiper-second" space-between="60" slides-per-view="1">
+                                    <swiper-slide class="swiper-slide">
+                                        <div class="collections__image-content">
+                                            <img src="./img/collections-2.png" alt="slide">
+                                            <h3 class="collections__item-title">
+                                                Olivo
+                                            </h3>
+                                        </div>
+    
+                                    </swiper-slide>
+
+                                    <swiper-slide class="swiper-slide">
+                                        <div class="collections__image-content">
+                                            <img src="./img/collections-1.png" alt="slide">
+                                            <h3 class="collections__item-title">
+                                                Central
+                                            </h3>
+                                        </div>
+                                    </swiper-slide>
+                            </swiper-container>
+                            <div class="collections__slider-content">
+                                <p class="collections__desc">Believe us, this will be a real eye-catcher</p>
+                                <button class="collections__button collections__button--prev-second"></button>            
+                                <button class="collections__button collections__button--next-second"></button>            
+                            </div>
+                    </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="collections__slide">
+                                <div class="collections__item collections__item--bottom-left">
+                                    <swiper-container next="collections__button--next-second" class="collections__swiper-second" space-between="60" slides-per-view="1">
+                                            <swiper-slide class="swiper-slide">
+                                                <div class="collections__image-content">
+                                                    <img src="./img/collections-1.png" alt="slide">
+                                                    <h3 class="collections__item-title">
+                                                        Central
+                                                    </h3>
+                                                    <p class="collections__award">award winner</p>
+                                                </div>
+            
+                                            </swiper-slide>
+    
+                                            <swiper-slide class="swiper-slide">
+                                                <div class="collections__image-content">
+                                                    <img src="./img/collections-2.png" alt="slide">
+                                                    <h3 class="collections__item-title">
+                                                        Olivo
+                                                    </h3>
+                                                    <p class="collections__award">award winner</p>
+                                                </div>
+                                            </swiper-slide>
+                                    </swiper-container>
+                                    <div class="collections__slider-content">
+                                        <p class="collections__desc">ready to become the centerpiece of your home</p>
+                                        <button class="collections__button collections__button--prev-second"></button>            
+                                        <button class="collections__button collections__button--next-second"></button>            
+                                    </div>
+                            </div>
+                            <div class="collections__item collections__item--top-right">
+                                <swiper-container class="collections__swiper-second" space-between="60" slides-per-view="1">
+                                    <swiper-slide class="swiper-slide">
+                                        <div class="collections__image-content">
+                                            <img src="./img/collections-2.png" alt="slide">
+                                            <h3 class="collections__item-title">
+                                                Olivo
+                                            </h3>
+                                        </div>
+    
+                                    </swiper-slide>
+
+                                    <swiper-slide class="swiper-slide">
+                                        <div class="collections__image-content">
+                                            <img src="./img/collections-1.png" alt="slide">
+                                            <h3 class="collections__item-title">
+                                                Central
+                                            </h3>
+                                        </div>
+                                    </swiper-slide>
+                            </swiper-container>
+                            <div class="collections__slider-content">
+                                <p class="collections__desc">Believe us, this will be a real eye-catcher</p>
+                                <button class="collections__button collections__button--prev-second"></button>            
+                                <button class="collections__button collections__button--next-second"></button>            
+                            </div>
+                    </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="collections__slide">
+                                <div class="collections__item collections__item--bottom-left">
+                                    <swiper-container next="collections__button--next-second" class="collections__swiper-second" space-between="60" slides-per-view="1">
+                                            <swiper-slide class="swiper-slide">
+                                                <div class="collections__image-content">
+                                                    <img src="./img/collections-1.png" alt="slide">
+                                                    <h3 class="collections__item-title">
+                                                        Central
+                                                    </h3>
+                                                    <p class="collections__award">award winner</p>
+                                                </div>
+            
+                                            </swiper-slide>
+    
+                                            <swiper-slide class="swiper-slide">
+                                                <div class="collections__image-content">
+                                                    <img src="./img/collections-2.png" alt="slide">
+                                                    <h3 class="collections__item-title">
+                                                        Olivo
+                                                    </h3>
+                                                    <p class="collections__award">award winner</p>
+                                                </div>
+                                            </swiper-slide>
+                                    </swiper-container>
+                                    <div class="collections__slider-content">
+                                        <p class="collections__desc">ready to become the centerpiece of your home</p>
+                                        <button class="collections__button collections__button--prev-second"></button>            
+                                        <button class="collections__button collections__button--next-second"></button>            
+                                    </div>
+                            </div>
+                            <div class="collections__item collections__item--top-right">
+                                <swiper-container class="collections__swiper-second" space-between="60" slides-per-view="1">
+                                    <swiper-slide class="swiper-slide">
+                                        <div class="collections__image-content">
+                                            <img src="./img/collections-2.png" alt="slide">
+                                            <h3 class="collections__item-title">
+                                                Olivo
+                                            </h3>
+                                        </div>
+    
+                                    </swiper-slide>
+
+                                    <swiper-slide class="swiper-slide">
+                                        <div class="collections__image-content">
+                                            <img src="./img/collections-1.png" alt="slide">
+                                            <h3 class="collections__item-title">
+                                                Central
+                                            </h3>
+                                        </div>
+                                    </swiper-slide>
+                            </swiper-container>
+                            <div class="collections__slider-content">
+                                <p class="collections__desc">Believe us, this will be a real eye-catcher</p>
+                                <button class="collections__button collections__button--prev-second"></button>            
+                                <button class="collections__button collections__button--next-second"></button>            
+                            </div>
+                    </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="collections__slide">
+                                <div class="collections__item collections__item--bottom-left">
+                                    <swiper-container next="collections__button--next-second" class="collections__swiper-second" space-between="60" slides-per-view="1">
+                                            <swiper-slide class="swiper-slide">
+                                                <div class="collections__image-content">
+                                                    <img src="./img/collections-1.png" alt="slide">
+                                                    <h3 class="collections__item-title">
+                                                        Central
+                                                    </h3>
+                                                    <p class="collections__award">award winner</p>
+                                                </div>
+            
+                                            </swiper-slide>
+    
+                                            <swiper-slide class="swiper-slide">
+                                                <div class="collections__image-content">
+                                                    <img src="./img/collections-2.png" alt="slide">
+                                                    <h3 class="collections__item-title">
+                                                        Olivo
+                                                    </h3>
+                                                    <p class="collections__award">award winner</p>
+                                                </div>
+                                            </swiper-slide>
+                                    </swiper-container>
+                                    <div class="collections__slider-content">
+                                        <p class="collections__desc">ready to become the centerpiece of your home</p>
+                                        <button class="collections__button collections__button--prev-second"></button>            
+                                        <button class="collections__button collections__button--next-second"></button>            
+                                    </div>
+                            </div>
+                            <div class="collections__item collections__item--top-right">
+                                <swiper-container class="collections__swiper-second" space-between="60" slides-per-view="1">
+                                    <swiper-slide class="swiper-slide">
+                                        <div class="collections__image-content">
+                                            <img src="./img/collections-2.png" alt="slide">
+                                            <h3 class="collections__item-title">
+                                                Olivo
+                                            </h3>
+                                        </div>
+    
+                                    </swiper-slide>
+
+                                    <swiper-slide class="swiper-slide">
+                                        <div class="collections__image-content">
+                                            <img src="./img/collections-1.png" alt="slide">
+                                            <h3 class="collections__item-title">
+                                                Central
+                                            </h3>
+                                        </div>
+                                    </swiper-slide>
+                            </swiper-container>
+                            <div class="collections__slider-content">
+                                <p class="collections__desc">Believe us, this will be a real eye-catcher</p>
+                                <button class="collections__button collections__button--prev-second"></button>            
+                                <button class="collections__button collections__button--next-second"></button>            
+                            </div>
+                    </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="collections__slide">
+                                <div class="collections__item collections__item--bottom-left">
+                                    <swiper-container next="collections__button--next-second" class="collections__swiper-second" space-between="60" slides-per-view="1">
+                                            <swiper-slide class="swiper-slide">
+                                                <div class="collections__image-content">
+                                                    <img src="./img/collections-1.png" alt="slide">
+                                                    <h3 class="collections__item-title">
+                                                        Central
+                                                    </h3>
+                                                    <p class="collections__award">award winner</p>
+                                                </div>
+            
+                                            </swiper-slide>
+    
+                                            <swiper-slide class="swiper-slide">
+                                                <div class="collections__image-content">
+                                                    <img src="./img/collections-2.png" alt="slide">
+                                                    <h3 class="collections__item-title">
+                                                        Olivo
+                                                    </h3>
+                                                    <p class="collections__award">award winner</p>
+                                                </div>
+                                            </swiper-slide>
+                                    </swiper-container>
+                                    <div class="collections__slider-content">
+                                        <p class="collections__desc">ready to become the centerpiece of your home</p>
+                                        <button class="collections__button collections__button--prev-second"></button>            
+                                        <button class="collections__button collections__button--next-second"></button>            
+                                    </div>
+                            </div>
+                            <div class="collections__item collections__item--top-right">
+                                <swiper-container class="collections__swiper-second" space-between="60" slides-per-view="1">
+                                    <swiper-slide class="swiper-slide">
+                                        <div class="collections__image-content">
+                                            <img src="./img/collections-2.png" alt="slide">
+                                            <h3 class="collections__item-title">
+                                                Olivo
+                                            </h3>
+                                        </div>
+    
+                                    </swiper-slide>
+
+                                    <swiper-slide class="swiper-slide">
+                                        <div class="collections__image-content">
+                                            <img src="./img/collections-1.png" alt="slide">
+                                            <h3 class="collections__item-title">
+                                                Central
+                                            </h3>
+                                        </div>
+                                    </swiper-slide>
+                            </swiper-container>
+                            <div class="collections__slider-content">
+                                <p class="collections__desc">Believe us, this will be a real eye-catcher</p>
+                                <button class="collections__button collections__button--prev-second"></button>            
+                                <button class="collections__button collections__button--next-second"></button>            
+                            </div>
+                    </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="collections__slide">
+                                <div class="collections__item collections__item--bottom-left">
+                                    <swiper-container next="collections__button--next-second" class="collections__swiper-second" space-between="60" slides-per-view="1">
+                                            <swiper-slide class="swiper-slide">
+                                                <div class="collections__image-content">
+                                                    <img src="./img/collections-1.png" alt="slide">
+                                                    <h3 class="collections__item-title">
+                                                        Central
+                                                    </h3>
+                                                    <p class="collections__award">award winner</p>
+                                                </div>
+            
+                                            </swiper-slide>
+    
+                                            <swiper-slide class="swiper-slide">
+                                                <div class="collections__image-content">
+                                                    <img src="./img/collections-2.png" alt="slide">
+                                                    <h3 class="collections__item-title">
+                                                        Olivo
+                                                    </h3>
+                                                    <p class="collections__award">award winner</p>
+                                                </div>
+                                            </swiper-slide>
+                                    </swiper-container>
+                                    <div class="collections__slider-content">
+                                        <p class="collections__desc">ready to become the centerpiece of your home</p>
+                                        <button class="collections__button collections__button--prev-second"></button>            
+                                        <button class="collections__button collections__button--next-second"></button>            
+                                    </div>
+                            </div>
+                            <div class="collections__item collections__item--top-right">
+                                <swiper-container class="collections__swiper-second" space-between="60" slides-per-view="1">
+                                    <swiper-slide class="swiper-slide">
+                                        <div class="collections__image-content">
+                                            <img src="./img/collections-2.png" alt="slide">
+                                            <h3 class="collections__item-title">
+                                                Olivo
+                                            </h3>
+                                        </div>
+    
+                                    </swiper-slide>
+
+                                    <swiper-slide class="swiper-slide">
+                                        <div class="collections__image-content">
+                                            <img src="./img/collections-1.png" alt="slide">
+                                            <h3 class="collections__item-title">
+                                                Central
+                                            </h3>
+                                        </div>
+                                    </swiper-slide>
+                            </swiper-container>
+                            <div class="collections__slider-content">
+                                <p class="collections__desc">Believe us, this will be a real eye-catcher</p>
+                                <button class="collections__button collections__button--prev-second"></button>            
+                                <button class="collections__button collections__button--next-second"></button>            
+                            </div>
+                    </div>
+                        </div>
+                      </div>
+
+                    </div>
+                    
+                    <div class="collections__buttons">
+                        <button class="collections__button collections__button--prev"></button>
+                        <div class="collections__pagination"></div>
+                        <button class="collections__button collections__button--next"></button>    
+                    </div>
+                  </div>                  
+            </section>
+            <section id="find" class="find container-fluid">
+                <div class="find__content">
+                    <h2 class="find__title">Find a dealer</h2>
+                    <p class="find__text">We work together with dealers in 19 countries, all over the world. Find out which one is closest to you.</p>
+                    <input type="text" placeholder="Your location" class="find__input">
+                    <button class="btn find__button">Search</button>
+                </div>
+                <img src="./img/find-1.png" alt="tile" class="find__image">
+            </section>
+            <section id="inspiration" class="benefits">
+                <div class="container-fluid benefits__inner">
+                    <div class="benefits__content">
+                        <h2 class="benefits__title">Terrace <br/>Ceremonies & Meetings</h2>
+                        <button href="youtube.com" class="btn btn--light benefits__button">Inspire me</button>    
+                    </div>
+                    <img src="./img/benefits-1.png" class="benefits__image benefits__image--top-left" alt="meetings">
+                    <img src="./img/benefits-2.png" class="benefits__image benefits__image--top-right" alt="terrace">
+                    <img src="./img/benefits-3.png" class="benefits__image benefits__image--bottom-right" alt="ceremony">    
+                </div>
+            </section>
+            <section id="about" class="about container">
+                <h2 class="about__title">Joli manages to offer designs <br/> that  are both timelessly modern and trendy</h2>
+                <button class="btn about__button">About us</button>
+            </section>
+            <section class="learn container-fluid">
+                <img src="./img/learn-1.png" alt="tile">
+                <div class="learn__content">
+                    <h2 class="learn__title">Become a dealer</h2>
+                    <p class="learn__text">Do you want to become a Joli retailer? Please submit the following form and we will contact you!</p>
+                    <button class="btn learn__button">Learn more</button>
+                </div>
+            </section>
+            <section class="calm container-fluid">
+                <img src="./img/calm-1.png" alt="grandpa in the forest">
+                <h2 class="visually-hidden calm__title"></h2>
+            </section>
+            <section class="request">
+                <div class="container request__inner">
+                    <h2 class="request__title">Request our
+                        2022 catalogue.</h2>
+                    <form action="#" class="request__form">
+                        <div class="request__form-send">
+                            <div class="request__column">
+                                <label class="request__input-label" for="text">Email address*</label>
+                                <textarea type="text" id="text" class="request__input">
+
+                                </textarea>    
+                            </div>
+                            <button type="submit" class="btn request__button">Send</button>
+                        </div>
+                        <div class="request__item">
+                            <input id="check" type="checkbox" class="request__checkbox">    
+                            <label class="request__checkbox-label" for="check">I agree with the
+                                Privacy & Cookie Policy
+                                of Joli</label>
+                        </div>
+                    </form>    
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container footer__inner">
+                <img src="./img/logo.svg" alt="logo" class="footer__logo">
+                <div class="footer__content">
+                    <div class="footer__columns">
+                        <ul class="footer__list">
+                            <li class="footer__list-item"><h2 class="footer__title">Collections</h2></li>
+                            <li class="footer__list-item"><a href="#" class="footer__item-link">Wire</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__item-link">Curve</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__item-link">Fizz</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__item-link">Marguerite</a></li>
+                        </ul>
+                        <ul class="footer__list">
+                            <li class="footer__list-item"><h2 class="footer__title">Products</h2></li>
+                            <li class="footer__list-item"><a href="#" class="footer__item-link">Tables</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__item-link">Chairs</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__item-link">Cabinets</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__item-link">Accessories</a></li>
+                        </ul>
+                        <ul class="footer__list">
+                            <li class="footer__list-item"><h2 class="footer__title">Inspiration</h2></li>
+                            <li class="footer__list-item"><a href="#" class="footer__item-link">Joli Days <br/> 2022</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__item-link">Terrace</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__item-link">Ceremonies <br/> & Meetings</a></li>
+                        </ul>
+                        <ul class="footer__list">
+                            <li class="footer__list-item"><h2 class="footer__title">About us</h2></li>
+                            <li class="footer__list-item"><a href="#" class="footer__item-link">Materials</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__item-link">Find a dealer</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__item-link">Professionals</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__item-link">News</a></li>
+                        </ul>
+                        <ul class="footer__list">
+                            <li class="footer__list-item"><h2 class="footer__title">Contact</h2></li>
+                            <li class="footer__list-item"><a href="#" class="footer__item-link">Industrielaan 5</a></li>
+                            <li class="footer__list-item"><a href="" class="footer__item-link">8520 Kortrijk</a></li>
+                            <li class="footer__list-item"><a href="mailto:info@joli.be" class="footer__item-link">info@joli.be</a></li>
+                        </ul>
+                    </div>
+                    <ul class="footer__bottom">
+                        <li class="footer__item"><a href="#" class="footer__link">Privacy <br/> & Cookie Policy</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Disclaimer</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">made by skinn</a></li>
+                        <li class="footer__social">
+                            <a href="#" class="footer__social-link">
+                                <img src="./img/facebook.svg" alt="facebook">
+                            </a>
+                            <a href="#" class="footer__social-link">
+                                <img src="./img/instagram.svg" alt="instagram">
+                            </a>
+                            <a href="#" class="footer__social-link">
+                                <img src="./img/pinterest.svg" alt="pinterest">
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+        <script type="module">
+            import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js';
+                const nexts = document.querySelectorAll('.collections__button--next-second') 
+                const prevs = document.querySelectorAll('.collections__button--prev-second') 
+                nexts.forEach((next) => {
+                    next.addEventListener('click', (e) => {
+                        const nextSwiper = next.nextSibling.parentElement.nextSibling.parentElement.querySelector('swiper-container')
+                        nextSwiper.swiper.slideNext()
+                })
+                })
+                prevs.forEach((prev) => {
+                    prev.addEventListener('click', () => {
+                        const prevSwiper = prev.nextSibling.parentElement.nextSibling.parentElement.querySelector('swiper-container')
+                        prevSwiper.swiper.slidePrev()
+                })
+                })
+
+            const swiper = new Swiper('.swiper', {
+                slidesPerView: 1,
+                spaceBetween: 40,
+                    pagination: {
+                        el: '.collections__pagination',
+                    type: 'fraction',
+                        clickable: true,
+                    renderFraction: function (currentClass, totalClass) {
+                                return '<span class="' + currentClass + '"></span>' +
+                                    ' / ' +
+                                    '<span class="' + totalClass + '"></span>';
+                    } 
+                    },
+        
+                    // Navigation arrows
+                    navigation: {
+                        nextEl: '.collections__button--next',
+                        prevEl: '.collections__button--prev',
+                    },
+                    });
+
+          </script>
+        
+        <script src="./js/anchor.js"></script>
+    
 </body>
 </html>

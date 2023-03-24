@@ -1,0 +1,22 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "Источник макета Telegram-канал [FIGMA | Макеты для верстки](https://t.me/+oXZSKMmXp6UyOGI6)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaketForFigma/Template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaketForFigma/Template/issues"
+  },
+  "homepage": "https://github.com/MaketForFigma/Template#readme",
+  "dependencies": {
+    "swiper": "^9.1.1"
+  }
+}
